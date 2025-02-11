@@ -5,74 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Ma Page Personnelle</title>
-    <style>
-        /* Styles CSS */
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            color: #333;
-            margin: 0;
-            padding: 0;
-        }
-
-        header {
-            background-color: #4CAF50;
-            color: white;
-            padding: 10px 0;
-            text-align: center;
-        }
-
-        img {
-            width: 90px;
-            margin: auto;
-            height: auto;
-            box-shadow: #21b65a;
-        }
-
-        section {
-            margin: 20px;
-            padding: 20px;
-            background-color: white;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            text-align: center;
-        }
-
-        h2 {
-            color: #4CAF50;
-        }
-
-        p {
-            font-size: 1.1rem;
-        }
-
-        button {
-            display: block;
-            margin: 90px auto;
-            padding: 10px 90px;
-            background-color: #4CAF50;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            font-size: 1rem;
-            cursor: pointer;
-            transition: background-color 0.3s ease;
-        }
-
-        button:hover {
-            background-color: #45a049;
-        }
-
-        footer {
-            text-align: center;
-            padding: 3px 0;
-            background-color: #333;
-            color: white;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-        }
-    </style>
 </head>
 <body>
     <!-- Structure HTML -->
@@ -106,11 +38,5 @@
         <p><a href="mailto:djole.assia@uvci.educ.ci" style="color: #4CAF50; text-decoration: none;">Contactez-moi à djole.assia@uvci.educ.ci </a></p>
     </footer>
 
-    <!-- JavaScript -->
-    <script>
-        document.getElementById('messageButton').addEventListener('click', function() {
-            alert('Merci d\'avoir visité ma page ! 😊');
-        });
-    </script>
 </body>
 </html>
